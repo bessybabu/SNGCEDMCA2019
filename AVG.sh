@@ -1,5 +1,7 @@
 echo enter 5 numbers
 read a b c d e
-sum=`expr $a+$b+$c+$d+$e`
-echo $sum
+s=` expr $a + $b + $c + $d + $e `
+avg=` expr $s / 5 `
+echo  average is $avg
+
 
